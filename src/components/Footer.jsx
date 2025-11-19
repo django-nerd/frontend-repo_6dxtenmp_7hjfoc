@@ -22,17 +22,13 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold">Ikuti Kami</h4>
             <div className="mt-3 flex items-center gap-3">
-              <a href="#" className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 transition"><Facebook/></a>
-              <a href="#" className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 transition"><Instagram/></a>
+              <a href="#" className="inline-flex items-center justify-center w-10 h-10 rounded-full bg.white/10 bg-white/10 hover:bg-white/20 transition"><Facebook/></a>
+              <a href="#" className="inline-flex items-center justify-center w-10 h-10 rounded-full bg.white/10 bg-white/10 hover:bg-white/20 transition"><Instagram/></a>
             </div>
           </div>
         </div>
         <div className="mt-10 border-t border-white/10 pt-6 text-white/60 text-sm">© {new Date().getFullYear()} LuxDrive. Semua hak cipta dilindungi.</div>
       </div>
-
-      <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" className="fixed bottom-6 right-6 z-50 inline-flex items-center gap-2 rounded-full bg-[#25D366] text-white font-semibold px-5 py-3 shadow-lg hover:brightness-110 transition">
-        WhatsApp
-      </a>
     </footer>
   )
 }
